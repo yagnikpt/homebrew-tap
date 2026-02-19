@@ -3,7 +3,7 @@ cask "boomtypr" do
   name "boomtypr"
   desc "A sleek typing test experience in terminal"
   homepage "https://github.com/yagnikpt/boomtypr"
-  version "1.0.1"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "boomtypr" do
   on_macos do
     on_intel do
       url "https://github.com/yagnikpt/boomtypr/releases/download/v#{version}/boomtypr_Darwin_x86_64.tar.gz"
-      sha256 "36a6b6a82c4cbaf1f527c7aab7413f098acab85e0dcdc4145f11dad10ef7a86d"
+      sha256 "101ae76b1e590c617b26806039ca769f4f2d8a5153618541e8b4942fc36e2e4d"
     end
     on_arm do
       url "https://github.com/yagnikpt/boomtypr/releases/download/v#{version}/boomtypr_Darwin_arm64.tar.gz"
-      sha256 "641db49551970a91f5e115623d9dc57582946bc115e308c3abb81e6f1daf0968"
+      sha256 "b847dbc64b9daa163e3b78ce6407769cc5ed6eca1fef3f6977d825c0f0ee7a5a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yagnikpt/boomtypr/releases/download/v#{version}/boomtypr_Linux_x86_64.tar.gz"
-      sha256 "bbb20fb4ec226f6b870d67e7c2193e229c3d832b9470305c4a570cb238340bb0"
+      sha256 "31cccec0ac3c21c8ef17161d3d9f99c4d8ccf9739848f174fbcf9eed1c479007"
     end
     on_arm do
       url "https://github.com/yagnikpt/boomtypr/releases/download/v#{version}/boomtypr_Linux_arm64.tar.gz"
-      sha256 "7ad5c1f573f7e3bb145c9c3f9cf2166e7c66e9dc8ff0faad19a162616ea7b03a"
+      sha256 "67e7ad9e882f444a5c331fdc7e76966827d63bf71272a3b9482ab6e22da4e31f"
     end
   end
 

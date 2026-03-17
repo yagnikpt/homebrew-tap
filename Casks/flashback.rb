@@ -3,7 +3,7 @@ cask "flashback" do
   name "flashback"
   desc "A command-line knowledge store."
   homepage "https://github.com/yagnikpt/flashback"
-  version "0.1"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "flashback" do
   on_macos do
     on_intel do
       url "https://github.com/yagnikpt/flashback/releases/download/v#{version}/flashback_Darwin_x86_64.tar.gz"
-      sha256 "4e1fc785ca1753142eb9b050ecb373057e3bcbb168fd97be9003f0d7b31635b2"
+      sha256 "ff985dd32ed293499a46eb35254922c3c5ec4973340a6e24ac90e998f5d1f7e8"
     end
     on_arm do
       url "https://github.com/yagnikpt/flashback/releases/download/v#{version}/flashback_Darwin_arm64.tar.gz"
-      sha256 "019b7eee4124e82df8f8ce90f196ca19447c68dc2b55abc3e2b27b8dc6b89028"
+      sha256 "3e6fb333168a618ae2f8964ea2c0757d1fc720b6bb5f0814430a1ffeb4c8b0db"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yagnikpt/flashback/releases/download/v#{version}/flashback_Linux_x86_64.tar.gz"
-      sha256 "794afba6f26ef002f6501c47edeba55d679c330ecfd41b568cc8d82b92700905"
+      sha256 "b1a7b0ad9e52ed49d6ae3d9b514fc181cff90daaf4d1ecaf86c231d50245e42f"
     end
     on_arm do
       url "https://github.com/yagnikpt/flashback/releases/download/v#{version}/flashback_Linux_arm64.tar.gz"
-      sha256 "c02455fbd7bf1dbfef11978310021a82eb4cfec0d348c31ca4c26d8fedc05e6e"
+      sha256 "ded1662a20a388cdad87cc370bbcfc2274cc7327702cac714a1af61a079d5fae"
     end
   end
 

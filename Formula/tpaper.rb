@@ -5,32 +5,31 @@
 class Tpaper < Formula
   desc "Terminal-based note-taking app built around the idea of buffers and blocks"
   homepage "https://github.com/yagnikpt/tpaper"
-  url "https://github.com/yagnikpt/tpaper/archive/refs/tags/0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "9a6e9187e61b8720609f3e70ed3c63f0f231d1f845b739d8c1cb191d0e00cc29"
+  url "https://github.com/yagnikpt/tpaper/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "4bbbab057433b8c7cb87f82226c80a7a3b67ad2214e5bb220f1c6bbc1f56523c"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/yagnikpt/tpaper/releases/download/0.1.0/tpaper-0.1.0-darwin-amd64.tar.gz"
-      sha256 "dcd052997d39ecd11869c2087d9b6d5e55690e7446f0092815e27b7e2a9d5f5f"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.1.1/tpaper-0.1.1-darwin-amd64.tar.gz"
+      sha256 "8497c4af066067c58d9732581d77d30ab9b61cd3e28a2e5b938af540da07e386"
     end
 
     on_arm do
-      url "https://github.com/yagnikpt/tpaper/releases/download/0.1.0/tpaper-0.1.0-darwin-arm64.tar.gz"
-      sha256 "4549d63c0d8555e67d9648adde3612386b744a64442c3eb515857d53804400fd"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.1.1/tpaper-0.1.1-darwin-arm64.tar.gz"
+      sha256 "63581ad73bddc28fe130d1595a7e347afbc480a8ded339e841a58e394ae10f9a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yagnikpt/tpaper/releases/download/0.1.0/tpaper-0.1.0-linux-amd64.tar.gz"
-      sha256 "2a1a6d6e56cc67a41ab43795ad234151aacaee6c21b7054cd2954e20043fbd65"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.1.1/tpaper-0.1.1-linux-amd64.tar.gz"
+      sha256 "f2f8943b6b25d5602a12b6a51849193cf5718e460aa0b60a6f1a42aaf474d7eb"
     end
 
     on_arm do
-      url "https://github.com/yagnikpt/tpaper/releases/download/0.1.0/tpaper-0.1.0-linux-arm64.tar.gz"
-      sha256 "4b70d909e9e946c7520576cd7748e51691bd258022718665ded831be8f13225e"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.1.1/tpaper-0.1.1-linux-arm64.tar.gz"
+      sha256 "7a69fb9091859852f742b775ca57e74fb717c2021e679d1c488ebd3c84505341"
     end
   end
 

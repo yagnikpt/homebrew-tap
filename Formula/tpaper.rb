@@ -6,30 +6,30 @@ class Tpaper < Formula
   desc "Terminal-based note-taking app built around the idea of buffers and blocks"
   homepage "https://github.com/yagnikpt/tpaper"
   url "https://github.com/yagnikpt/tpaper/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "b4ce7f9d0dbb74e0b2ff65293c4c8a9fd353e6675cb2c8eb355d7d7920154033"
+  sha256 "338bc3ad543a05375453ac0bfb32684c0d9049f3dc447f5f6ef989a8ba655d70"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-darwin-amd64.tar.gz"
-      sha256 "7efda4358b8b2628bc578f75308b64930199d5334a8bea0e060647a005a9cdbe"
+      sha256 "fcc34dbfcac9fe08fafbc57485c1ff90ad9151891e79bc555f30d162dc20bdc4"
     end
 
     on_arm do
       url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-darwin-arm64.tar.gz"
-      sha256 "bd2dba14ce46ead1733e04039156425170e305ec394d961183584ba78662b53c"
+      sha256 "331c06cab078a3f36f1b84c226e320070d6153b5a4645c4b292f6524bcd3bc95"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-linux-amd64.tar.gz"
-      sha256 "31c5d24672d22dc8e2643831dacd13910556da1f2df84f2e91ce2f0a3598d98f"
+      sha256 "1564bbf0d51ab234b40bf23a967240d522fe0e39a12879fc32498e61d7e41cda"
     end
 
     on_arm do
       url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-linux-arm64.tar.gz"
-      sha256 "fea652b97e39c22544e04c889964ff2f7430992e5eedb183782acef9d83bf5e7"
+      sha256 "073586e15df639f5349f54faf74746a6d84a7d070f0dfc74e9878e2918709fab"
     end
   end
 

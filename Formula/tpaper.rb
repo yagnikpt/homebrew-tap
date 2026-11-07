@@ -5,31 +5,31 @@
 class Tpaper < Formula
   desc "Terminal-based note-taking app built around the idea of buffers and blocks"
   homepage "https://github.com/yagnikpt/tpaper"
-  url "https://github.com/yagnikpt/tpaper/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "338bc3ad543a05375453ac0bfb32684c0d9049f3dc447f5f6ef989a8ba655d70"
+  url "https://github.com/yagnikpt/tpaper/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "ffb14b4a0df8eec23dda9d79412851e68900fd08642729dd4b07f612df534d10"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-darwin-amd64.tar.gz"
-      sha256 "fcc34dbfcac9fe08fafbc57485c1ff90ad9151891e79bc555f30d162dc20bdc4"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.1/tpaper-0.3.1-darwin-amd64.tar.gz"
+      sha256 "eb181f7d4c1357ce19cb907cb6662b2d651c110da1edc52680b0fce062178f69"
     end
 
     on_arm do
-      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-darwin-arm64.tar.gz"
-      sha256 "331c06cab078a3f36f1b84c226e320070d6153b5a4645c4b292f6524bcd3bc95"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.1/tpaper-0.3.1-darwin-arm64.tar.gz"
+      sha256 "0bf35d396dfe99dee94d46d739190bcd905db283c25d9d07138c2c96a0dbee1e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-linux-amd64.tar.gz"
-      sha256 "1564bbf0d51ab234b40bf23a967240d522fe0e39a12879fc32498e61d7e41cda"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.1/tpaper-0.3.1-linux-amd64.tar.gz"
+      sha256 "0b0b262baf66e3baff722502a75691cb34da07cb3e77a197cc8f7108f521f160"
     end
 
     on_arm do
-      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.0/tpaper-0.3.0-linux-arm64.tar.gz"
-      sha256 "073586e15df639f5349f54faf74746a6d84a7d070f0dfc74e9878e2918709fab"
+      url "https://github.com/yagnikpt/tpaper/releases/download/v0.3.1/tpaper-0.3.1-linux-arm64.tar.gz"
+      sha256 "39e70703f7fed49e01944fc1fc332b9bd4bd5522100b549d5544f11ec8e4c531"
     end
   end
 
